@@ -1,0 +1,612 @@
+[
+    {
+        "name": "assertArrayHasKey",
+        "args": [
+            "$key",
+            "$array"
+        ]
+    },
+    {
+        "name": "assertArraySubset",
+        "args": [
+            "$subset",
+            "$array",
+            "$strict"
+        ]
+    },
+    {
+        "name": "assertArrayNotHasKey",
+        "args": [
+            "$key",
+            "$array"
+        ]
+    },
+    {
+        "name": "assertContains",
+        "args": [
+            "$needle",
+            "$haystack"
+        ]
+    },
+    {
+        "name": "assertAttributeContains",
+        "args": [
+            "$needle",
+            "$haystackAttributeName",
+            "$haystackClassOrObject"
+        ]
+    },
+    {
+        "name": "assertNotContains",
+        "args": [
+            "$needle",
+            "$haystack"
+        ]
+    },
+    {
+        "name": "assertAttributeNotContains",
+        "args": [
+            "$needle",
+            "$haystackAttributeName",
+            "$haystackClassOrObject"
+        ]
+    },
+    {
+        "name": "assertContainsOnly",
+        "args": [
+            "$type",
+            "$haystack",
+            "$isNativeType"
+        ]
+    },
+    {
+        "name": "assertContainsOnlyInstancesOf",
+        "args": [
+            "$classname",
+            "$haystack"
+        ]
+    },
+    {
+        "name": "assertAttributeContainsOnly",
+        "args": [
+            "$type",
+            "$haystackAttributeName",
+            "$haystackClassOrObject",
+            "$isNativeType"
+        ]
+    },
+    {
+        "name": "assertNotContainsOnly",
+        "args": [
+            "$type",
+            "$haystack",
+            "$isNativeType"
+        ]
+    },
+    {
+        "name": "assertAttributeNotContainsOnly",
+        "args": [
+            "$type",
+            "$haystackAttributeName",
+            "$haystackClassOrObject",
+            "$isNativeType"
+        ]
+    },
+    {
+        "name": "assertCount",
+        "args": [
+            "$expectedCount",
+            "$haystack"
+        ]
+    },
+    {
+        "name": "assertAttributeCount",
+        "args": [
+            "$expectedCount",
+            "$haystackAttributeName",
+            "$haystackClassOrObject"
+        ]
+    },
+    {
+        "name": "assertNotCount",
+        "args": [
+            "$expectedCount",
+            "$haystack"
+        ]
+    },
+    {
+        "name": "assertAttributeNotCount",
+        "args": [
+            "$expectedCount",
+            "$haystackAttributeName",
+            "$haystackClassOrObject"
+        ]
+    },
+    {
+        "name": "assertEquals",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeEquals",
+        "args": [
+            "$expected",
+            "$actualAttributeName",
+            "$actualClassOrObject"
+        ]
+    },
+    {
+        "name": "assertNotEquals",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeNotEquals",
+        "args": [
+            "$expected",
+            "$actualAttributeName",
+            "$actualClassOrObject"
+        ]
+    },
+    {
+        "name": "assertAttributeEmpty",
+        "args": [
+            "$haystackAttributeName",
+            "$haystackClassOrObject"
+        ]
+    },
+    {
+        "name": "assertAttributeNotEmpty",
+        "args": [
+            "$haystackAttributeName",
+            "$haystackClassOrObject"
+        ]
+    },
+    {
+        "name": "assertGreaterThan",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeGreaterThan",
+        "args": [
+            "$expected",
+            "$actualAttributeName",
+            "$actualClassOrObject"
+        ]
+    },
+    {
+        "name": "assertGreaterThanOrEqual",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeGreaterThanOrEqual",
+        "args": [
+            "$expected",
+            "$actualAttributeName",
+            "$actualClassOrObject"
+        ]
+    },
+    {
+        "name": "assertLessThan",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeLessThan",
+        "args": [
+            "$expected",
+            "$actualAttributeName",
+            "$actualClassOrObject"
+        ]
+    },
+    {
+        "name": "assertLessThanOrEqual",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeLessThanOrEqual",
+        "args": [
+            "$expected",
+            "$actualAttributeName",
+            "$actualClassOrObject"
+        ]
+    },
+    {
+        "name": "assertFileEquals",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertFileNotEquals",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertStringEqualsFile",
+        "args": [
+            "$expectedFile",
+            "$actualString"
+        ]
+    },
+    {
+        "name": "assertStringNotEqualsFile",
+        "args": [
+            "$expectedFile",
+            "$actualString"
+        ]
+    },
+    {
+        "name": "assertClassHasAttribute",
+        "args": [
+            "$attributeName",
+            "$className"
+        ]
+    },
+    {
+        "name": "assertClassNotHasAttribute",
+        "args": [
+            "$attributeName",
+            "$className"
+        ]
+    },
+    {
+        "name": "assertClassHasStaticAttribute",
+        "args": [
+            "$attributeName",
+            "$className"
+        ]
+    },
+    {
+        "name": "assertClassNotHasStaticAttribute",
+        "args": [
+            "$attributeName",
+            "$className"
+        ]
+    },
+    {
+        "name": "assertObjectHasAttribute",
+        "args": [
+            "$attributeName",
+            "$object"
+        ]
+    },
+    {
+        "name": "assertObjectNotHasAttribute",
+        "args": [
+            "$attributeName",
+            "$object"
+        ]
+    },
+    {
+        "name": "assertSame",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeSame",
+        "args": [
+            "$expected",
+            "$actualAttributeName",
+            "$actualClassOrObject"
+        ]
+    },
+    {
+        "name": "assertNotSame",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeNotSame",
+        "args": [
+            "$expected",
+            "$actualAttributeName",
+            "$actualClassOrObject"
+        ]
+    },
+    {
+        "name": "assertInstanceOf",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeInstanceOf",
+        "args": [
+            "$expected",
+            "$attributeName",
+            "$classOrObject"
+        ]
+    },
+    {
+        "name": "assertNotInstanceOf",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeNotInstanceOf",
+        "args": [
+            "$expected",
+            "$attributeName",
+            "$classOrObject"
+        ]
+    },
+    {
+        "name": "assertInternalType",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeInternalType",
+        "args": [
+            "$expected",
+            "$attributeName",
+            "$classOrObject"
+        ]
+    },
+    {
+        "name": "assertNotInternalType",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertAttributeNotInternalType",
+        "args": [
+            "$expected",
+            "$attributeName",
+            "$classOrObject"
+        ]
+    },
+    {
+        "name": "assertRegExp",
+        "args": [
+            "$pattern",
+            "$string"
+        ]
+    },
+    {
+        "name": "assertNotRegExp",
+        "args": [
+            "$pattern",
+            "$string"
+        ]
+    },
+    {
+        "name": "assertSameSize",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertNotSameSize",
+        "args": [
+            "$expected",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertStringMatchesFormat",
+        "args": [
+            "$format",
+            "$string"
+        ]
+    },
+    {
+        "name": "assertStringNotMatchesFormat",
+        "args": [
+            "$format",
+            "$string"
+        ]
+    },
+    {
+        "name": "assertStringMatchesFormatFile",
+        "args": [
+            "$formatFile",
+            "$string"
+        ]
+    },
+    {
+        "name": "assertStringNotMatchesFormatFile",
+        "args": [
+            "$formatFile",
+            "$string"
+        ]
+    },
+    {
+        "name": "assertStringStartsWith",
+        "args": [
+            "$prefix",
+            "$string"
+        ]
+    },
+    {
+        "name": "assertStringStartsNotWith",
+        "args": [
+            "$prefix",
+            "$string"
+        ]
+    },
+    {
+        "name": "assertStringEndsWith",
+        "args": [
+            "$suffix",
+            "$string"
+        ]
+    },
+    {
+        "name": "assertStringEndsNotWith",
+        "args": [
+            "$suffix",
+            "$string"
+        ]
+    },
+    {
+        "name": "assertXmlFileEqualsXmlFile",
+        "args": [
+            "$expectedFile",
+            "$actualFile"
+        ]
+    },
+    {
+        "name": "assertXmlFileNotEqualsXmlFile",
+        "args": [
+            "$expectedFile",
+            "$actualFile"
+        ]
+    },
+    {
+        "name": "assertXmlStringEqualsXmlFile",
+        "args": [
+            "$expectedFile",
+            "$actualXml"
+        ]
+    },
+    {
+        "name": "assertXmlStringNotEqualsXmlFile",
+        "args": [
+            "$expectedFile",
+            "$actualXml"
+        ]
+    },
+    {
+        "name": "assertXmlStringEqualsXmlString",
+        "args": [
+            "$expectedXml",
+            "$actualXml"
+        ]
+    },
+    {
+        "name": "assertXmlStringNotEqualsXmlString",
+        "args": [
+            "$expectedXml",
+            "$actualXml"
+        ]
+    },
+    {
+        "name": "assertEqualXMLStructure",
+        "args": [
+            "$expectedElement",
+            "$actualElement",
+            "$checkAttributes"
+        ]
+    },
+    {
+        "name": "assertSelectCount",
+        "args": [
+            "$selector",
+            "$count",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertSelectRegExp",
+        "args": [
+            "$selector",
+            "$pattern",
+            "$count",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertSelectEquals",
+        "args": [
+            "$selector",
+            "$content",
+            "$count",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertTag",
+        "args": [
+            "$matcher",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertNotTag",
+        "args": [
+            "$matcher",
+            "$actual"
+        ]
+    },
+    {
+        "name": "assertThat",
+        "args": [
+            "$value",
+            "$constraint"
+        ]
+    },
+    {
+        "name": "assertJsonStringEqualsJsonString",
+        "args": [
+            "$expectedJson",
+            "$actualJson"
+        ]
+    },
+    {
+        "name": "assertJsonStringNotEqualsJsonString",
+        "args": [
+            "$expectedJson",
+            "$actualJson"
+        ]
+    },
+    {
+        "name": "assertJsonStringEqualsJsonFile",
+        "args": [
+            "$expectedFile",
+            "$actualJson"
+        ]
+    },
+    {
+        "name": "assertJsonStringNotEqualsJsonFile",
+        "args": [
+            "$expectedFile",
+            "$actualJson"
+        ]
+    },
+    {
+        "name": "assertJsonFileNotEqualsJsonFile",
+        "args": [
+            "$expectedFile",
+            "$actualFile"
+        ]
+    },
+    {
+        "name": "assertJsonFileEqualsJsonFile",
+        "args": [
+            "$expectedFile",
+            "$actualFile"
+        ]
+    }
+]

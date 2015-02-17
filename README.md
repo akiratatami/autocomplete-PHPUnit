@@ -1,9 +1,13 @@
 ## Atom PHPUnit's assertions autocomplete
-Yes. <br />
-No. *Not published yet. Work in... yes, progress.* <br />
-As you can see in this **awful** gif :-). You can see it?
+Yes, install it via **apm**:
+```
+$ apm install autocomplete-phpunit
+```
+And you're ready to go.
 
-![autocomplete-PHPUnit](./autocomplete-PHPUnit.gif)
+As you can see in this **awful** gif :-). It does.
+
+![autocomplete-PHPUnit](https://raw.githubusercontent.com/CentaurWarchief/autocomplete-PHPUnit/master/autocomplete-PHPUnit.gif)
 
 ## Contributing
 You can, always.

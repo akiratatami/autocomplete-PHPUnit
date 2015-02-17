@@ -1,7 +1,7 @@
 {
   "name": "autocomplete-phpunit",
   "main": "./lib/autocomplete-phpunit",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Adds PHPUnit's assertions to autocomplete+ suggestions",
   "license": "MIT",
   "authors": [{

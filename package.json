@@ -1,13 +1,15 @@
 {
   "name": "autocomplete-phpunit",
   "main": "./lib/autocomplete-phpunit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Adds PHPUnit's assertions to autocomplete+ suggestions",
   "license": "MIT",
-  "authors": [{
-    "name": "Andrey K. Vital",
-    "email": "andreykvital@gmail.com"
-  }],
+  "authors": [
+    {
+      "name": "Andrey K. Vital",
+      "email": "andreykvital@gmail.com"
+    }
+  ],
   "engines": {
     "atom": ">=0.170.0"
   },

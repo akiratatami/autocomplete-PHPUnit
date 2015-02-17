@@ -5,9 +5,9 @@ $ apm install autocomplete-phpunit
 ```
 And you're ready to go.
 
-As you can see in this **awful** gif :-). It does.
-
 ![autocomplete-PHPUnit](https://raw.githubusercontent.com/CentaurWarchief/autocomplete-PHPUnit/master/autocomplete-PHPUnit.gif)
+
+*Thanks, this gif is even better, ty @julianocomg.*
 
 ## Contributing
 You can, always.

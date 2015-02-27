@@ -11,7 +11,7 @@
     }
   ],
   "engines": {
-    "atom": ">=0.170.0"
+    "atom": ">=0.176.0"
   },
   "dependencies": {
     "fuzzaldrin": "~1.0",
@@ -20,5 +20,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/CentaurWarchief/autocomplete-PHPUnit"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "1.0.0": "provide"
+      }
+    }
   }
 }
